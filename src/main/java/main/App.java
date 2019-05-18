@@ -28,11 +28,11 @@ public class App {
 
 		double rate = Double.parseDouble(br.readLine());
 		System.out.print("\n");
-		System.out.print("Enter the loan amount you want to take: ");
+		System.out.print("Enter the loan amount: ");
 
 		double loanAmount = Double.parseDouble(br.readLine());
 		System.out.print("\n");
-		System.out.print("Enter the number of years to pay your entire loan amount: ");
+		System.out.print("Enter the number of years: ");
 		int years = Integer.parseInt(br.readLine());
 
 		System.out.print("\n");
